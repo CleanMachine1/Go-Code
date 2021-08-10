@@ -12,4 +12,4 @@ or you can compile with
 
 then execute with
 
-`./file
+`./file`
