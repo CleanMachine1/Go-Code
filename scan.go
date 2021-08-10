@@ -7,7 +7,7 @@ import (
 func main() {
 	var a, b int
 
-	fmt.Print("Type a number: ")
+	fmt.Print("Type 2 numbers: ")
 	fmt.Scan(&a, &b)
 	fmt.Println("Your numbers are:", a, "and", b)
 	/* Input needs to be seperated in either a format such as
