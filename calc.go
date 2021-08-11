@@ -22,7 +22,6 @@ func divide(num1, num2 float64) float64 {
 	return num1 / num2
 }
 
-
 func StringToFloat64(str string) float64 {
 	f, err := strconv.ParseFloat(str, 64)
 	if err != nil {
@@ -53,6 +52,8 @@ func main() {
 		fmt.Println("Output =", multiply(float1, float2))
 	case 4:
 		fmt.Println("Output =", divide(float1, float2))
+	default:
+		fmt.Println("Invalid operation choice!")
 
 	}
 }
