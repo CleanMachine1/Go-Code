@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	"bufio"
 	"log"
 	"os"
 )
@@ -12,8 +12,11 @@ func main() {
 		return
 	}
 	defer file.Close()
-	var user_data string
-	fmt.Scanln(&user_data)
+
+	scanner := bufio.NewScanner(os.Stdin)
+	scanner.Scan()
+	user_data := scanner.Text()
+
 	if _, err := file.WriteString(user_data); err != nil {
 		log.Println(err)
 	}
