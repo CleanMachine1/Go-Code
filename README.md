@@ -23,6 +23,7 @@ However here are some books and guides I used, referenced, and read.
 https://assets.digitalocean.com/books/how-to-code-in-go.pdf
 https://www.tutorialspoint.com/go/index.htm
 https://www.w3schools.com/go/index.php
+https://tour.golang.org/welcome/1
 
 Here are some places which also provide guides, some I haven't seen.
 
