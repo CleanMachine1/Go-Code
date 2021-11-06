@@ -8,7 +8,7 @@ func main() {
 	fmt.Scanf("%d", &number)
 	for i = 1; i <= 10; i++ { // Starts at x1, goes to 10, repeats the timing ten times
 		output := i * number
-		fmt.Println(output) // Print the total for each run
+		fmt.Printf("%d x %d = %d\n", number, i, output) // Print the total for each run
 
 	}
 
